@@ -1,0 +1,56 @@
+.content{
+    display: grid;
+    height:100vh;
+    grid-template-columns: 0.8fr 2fr 0.8fr;
+    grid-template-rows: 0.4fr 2fr;
+    grid-template-areas: 
+            "nav nav "
+            "students main css"
+            "boy politics politics"
+            "boy technology technology"
+            "boy locals locals"
+            "boy opinon opinion"
+            "boy sports sports "   
+    ;
+}
+nav{
+    text-align: center;
+    font-style: italic;
+    grid-area: nav;
+}
+.main{
+    grid-area: main;
+    border: 0.8px solid;
+    text-align: center;
+}
+.students{
+    grid-area: students;
+    border: 0.8px solid;
+    text-align: center;
+}
+.css{
+    grid-area: css;
+    border: 0.8px solid;
+    text-align: center;
+}
+.boy{
+    grid-area: boy;
+    border: 0.8px solid;
+    text-align: center;
+}
+#politics{
+    grid-area: politics;
+    
+}
+#technology{
+    grid-area: technology;
+}
+#locals{
+    grid-area: locals;
+}
+#opnion{
+    grid-area: opinion;
+}
+#sports{
+    grid-area: sports;
+}
