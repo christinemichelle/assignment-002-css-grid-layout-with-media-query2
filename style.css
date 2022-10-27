@@ -12,12 +12,46 @@
 nav{
     text-align: center;
     font-style: italic;
+    
 }
 .content{
     display:grid;
     grid-template-columns: 2fr 3fr 2fr;
+    border: 0.8px,solid;
+    
 }
 .content2{
     display:grid;
-    grid-template-columns: 2fr 4fr;
+    grid-template-columns: 2fr 5.1fr;
+    border: 0.8px solid;
+    
+}
+.topics{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    border: 0.8px solid;
+
+}
+.css, .students{
+    border: 0.8px solid;
+    align-items: center;
+    
+}
+main{
+    border: 0.8px solid;
+}
+#politics{
+    background-color: aquamarine;
+}
+#technology{
+    background-color: aqua;
+}
+#locals{
+    background-color: bisque;
+}
+#opinion{
+    background-color: rebeccapurple;
+}
+#sports{
+    background-color: brown;
 }
